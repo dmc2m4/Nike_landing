@@ -1,10 +1,11 @@
 import Hero from "./components/Hero";
 import SuperQuality from "./components/SuperQuality";
+import NavBar from "./components/NavBar";
 
 const Home = () => {
   return (
     <main className="relative">
-      Nav
+      <NavBar />
       <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
