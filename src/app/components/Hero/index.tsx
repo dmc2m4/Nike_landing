@@ -62,7 +62,7 @@ const Hero = () => {
                 changeBigShoeImage={(shoe: string) => {
                   setBigShoeImg(shoe);
                 }}
-                bigShoeImage=""
+                bigShoeImage={bigShoeImg}
               ></ShoeCard>
             </div>
           ))}
