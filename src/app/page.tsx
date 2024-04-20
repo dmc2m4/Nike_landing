@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <main className="relative">
       <NavBar />
-      <section className="xl:padding-l wide:padding-r padding-b">
+      <section className="xl:padding-l padding-b">
         <Hero />
       </section>
       <section className="padding">Popular products</section>
