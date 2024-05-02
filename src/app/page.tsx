@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import SuperQuality from "./components/SuperQuality";
 import NavBar from "./components/NavBar";
+import PopularProducts from "./components/PopularProducts";
 
 const Home = () => {
   return (
@@ -9,7 +10,9 @@ const Home = () => {
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">Popular products</section>
+      <section className="padding">
+        <PopularProducts></PopularProducts>
+      </section>
       <section className="padding">
         <SuperQuality />
       </section>
