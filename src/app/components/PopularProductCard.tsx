@@ -16,6 +16,7 @@ export const PopularProductCard = (props: Props) => {
         alt={props.name}
         width={280}
         height={280}
+        className="shadow-xl rounded-3xl"
       ></Image>
       <div className="mt-8 flex justify-start gap-2.5">
         <Image src={star} alt="rating" width={24} height={24}></Image>
