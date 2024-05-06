@@ -6,7 +6,7 @@ const shoe4 = "/assets/images/shoe4.svg";
 const shoe5 = "/assets/images/shoe5.svg";
 const shoe6 = "/assets/images/shoe6.svg";
 const shoe7 = "/assets/images/shoe7.svg";
-const shoe8 = "/assets/images/shoe8.svg";
+export const shoe8 = "/assets/images/shoe8.svg";
 
 export const statistics = [
   { value: "1k+", label: "Brands" },
