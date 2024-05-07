@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import PopularProducts from "./components/PopularProducts";
 import Services from "./components/(Services)";
 import SpecialOffer from "./components/SpecialOffer";
+import CustomerReviews from "./components/CustomerReviews";
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
       <section className="padding">
         <SpecialOffer></SpecialOffer>
       </section>
-      <section className="bg-pale-blue padding">Customer reviews</section>
+      <section className="bg-pale-blue padding">
+        <CustomerReviews></CustomerReviews>
+      </section>
       <section className="padding-x md:py-32 py-16 w-full">Subscribe</section>
       <section className="bg-black padding-x padding-t pb-8 text-white">
         Footer

@@ -10,6 +10,8 @@ export const shoe8 = "/assets/images/shoe8.svg";
 const truckFast = "/assets/icons/truck-fast.svg";
 const shieldTick = "/assets/icons/shield-tick.svg";
 const support = "/assets/icons/support.svg";
+const customer1 = "/assets/images/customer1.jpeg";
+const customer2 = "/assets/images/customer2.svg";
 
 export const statistics = [
   { value: "1k+", label: "Brands" },
@@ -75,5 +77,22 @@ export const services = [
     imgURL: support,
     label: "Love to help you",
     subtext: "Our dedicated team is here to assist you every step of the way.",
+  },
+];
+
+export const reviews = [
+  {
+    imgURL: customer1,
+    customerName: "Morich Brown",
+    rating: 4.5,
+    feedback:
+      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+  },
+  {
+    imgURL: customer2,
+    customerName: "Lota Mongeskar",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
 ];
