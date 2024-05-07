@@ -6,6 +6,7 @@ import Services from "./components/(Services)";
 import SpecialOffer from "./components/SpecialOffer";
 import CustomerReviews from "./components/CustomerReviews";
 import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
         <Subscribe></Subscribe>
       </section>
       <section className="bg-black padding-x padding-t pb-8 text-white">
-        Footer
+        <Footer></Footer>
       </section>
     </main>
   );
