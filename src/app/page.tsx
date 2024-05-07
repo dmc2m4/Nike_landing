@@ -5,6 +5,7 @@ import PopularProducts from "./components/PopularProducts";
 import Services from "./components/(Services)";
 import SpecialOffer from "./components/SpecialOffer";
 import CustomerReviews from "./components/CustomerReviews";
+import Subscribe from "./components/Subscribe";
 
 const Home = () => {
   return (
@@ -28,7 +29,9 @@ const Home = () => {
       <section className="bg-pale-blue padding">
         <CustomerReviews></CustomerReviews>
       </section>
-      <section className="padding-x md:py-32 py-16 w-full">Subscribe</section>
+      <section className="padding-x md:py-32 py-16 w-full">
+        <Subscribe></Subscribe>
+      </section>
       <section className="bg-black padding-x padding-t pb-8 text-white">
         Footer
       </section>
